@@ -31,6 +31,7 @@ const Search = (
     const value = e.target.value
     setSearchKey(value)
   }
+  console.log("try")
 
   return (
       <Navbar className="bg-gradient-to-b from-black from-70% to-transparent fixed  inset-0 z-10 h-max max-w-full rounded-none pt-2 pb-3 py-2 px-4 lg:px-8 lg:pb-7 lg:pt-4">
